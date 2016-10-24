@@ -24,7 +24,7 @@ int main()
     stringstream ss;
     ofstream fout;
     vector <figuraGeometrica*>  figura;
-    Screen screen(nlin, ncol);
+
 
     //procura o arquivo
     fin.open("C:/Users/giovanna/Documents/gih/proj2/teste-entrada.txt");
@@ -69,7 +69,7 @@ int main()
             }
         }
     }
-
+    Screen screen(nlin, ncol);
     n_figuras = figura.size();
     screen.setBrush(brush);
     for (int i=0; i<n_figuras; i++){
