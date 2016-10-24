@@ -9,7 +9,7 @@ class Screen{
 
     int nlin, ncol;
     char brush;
-    vector< vector<char> > mat;
+    vector< vector<char> > matriz;
 
 public:
 
@@ -21,7 +21,7 @@ public:
     friend ostream& operator<<(ostream &os, const Screen &t){
         for(int i=0;i<t.nlin;i++){
             for (int j=0;j<t.ncol;j++){
-                os << t.mat[i][j] << ' ';
+                os << t.matriz[i][j] << ' ';
             }
             os << endl;
         }

@@ -1,6 +1,6 @@
 #ifndef CIRCULO_H
 #define CIRCULO_H
-#include <figuraeometrica.h>
+#include <figurageometrica.h>
 
 class Circulo : public figuraGeometrica{
 

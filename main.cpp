@@ -27,7 +27,7 @@ int main()
     Screen screen(nlin, ncol);
 
     //procura o arquivo
-    fin.open("C:/Users/giovanna/Desktop/proj2/teste-entrada.txt");
+    fin.open("C:/Users/giovanna/Documents/gih/proj2/teste-entrada.txt");
     if (!fin.is_open()){
         //testa se o arquivo foi aberto
         cout << "arquivo nao encontrado" << endl;
@@ -79,7 +79,7 @@ int main()
     cout << screen;
 
     //procura o arquivo de saida
-    fout.open("C:/Users/giovanna/Desktop/proj2/teste-saida.txt");
+    fout.open("C:/Users/giovanna/Documents/gih/proj2/teste-saida.txt");
     if(!fout.is_open()){
             //fala que o arquivo de saida não foi encontrado
             cout << "arquivo nao encontrado" << endl;
