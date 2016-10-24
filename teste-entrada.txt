@@ -1,11 +1,9 @@
-Dim 60 20
+Dim 50 50
 Brush #
-Reta 1 1 1 5
-Retangulo 3 4 3 5
-Circulo 3 10 5 0
-Circulo 10 4 5 1
-                   
-                     
+Reta 2 5 2 10
+Retangulo 4 5 5 5
+Circulo 3 15 6 0
+Circulo 13 4 6 1                                
                                         
                                         
                                         
@@ -15,6 +13,11 @@ Circulo 10 4 5 1
                                         
                                         
                                         
+                                        
+                                        
+                                        
+                                        
+                                                 
                                         
                                         
                                         
